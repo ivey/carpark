@@ -8,8 +8,7 @@ require 'rake/testtask'
 require 'rake/gempackagetask'
 require 'rubygems'
 
-ID = "$Id: Rakefile 26 2007-03-17 20:28:23Z bkerley $"
-GEM_VERSION = ID.split[2]
+GEM_VERSION = '30'
 
 #this will probably fail in win32
 HOMEDIR = ENV['HOME']
