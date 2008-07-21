@@ -1,12 +1,8 @@
 #
 #  carpark/Rakefile
 #
-#  Created by Bryce Kerley on 2006-11-08.
+#  Created by Bryce Kerley.
 #  This code is public domain.
-#
-#  Subversion info:
-#  $Id: Rakefile 26 2007-03-17 20:28:23Z bkerley $
-
 require 'rake'
 require 'rake/testtask'
 require 'rake/gempackagetask'
