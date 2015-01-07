@@ -21,6 +21,8 @@ class Array
     return self.first
   end
 
+  alias head car
+
   def cdr
     return self[1..-1]
   end
