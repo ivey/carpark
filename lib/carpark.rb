@@ -25,6 +25,8 @@ class Array
     return self[1..-1]
   end
 
+  alias rest cdr
+
   def nth(n)
     return self[n]
   end
